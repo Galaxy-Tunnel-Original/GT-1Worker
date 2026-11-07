@@ -6,9 +6,4 @@ compatibility_flags = [ "nodejs_compat" ]
 WS_PATH = "galaxy-tunnel"
 PROXYIP = "bpb.yousef.isegaro.com"
 UUID = "126d7957-90e5-4fb4-adbc-d97ded9acbaa"
-DNS_RESOLVER_URL = ["https://cloudflare-dns.com/dns-query",
-"https://dns.google/dns-query",
-"https://dns.alidns.com/dns-query",
-"https://dns.quad9.net/dns-query",
-"https://dns.adguard-dns.com/dns-query"]
-RATE_LIMIT_PER_MINUTE = "60"
+DNS_RESOLVER_URL = "https://cloudflare-dns.com/dns-query"
