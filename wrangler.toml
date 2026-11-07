@@ -1,12 +1,11 @@
 name = "onetones"
-main = "_worker.js"
+pages_build_output_dir = "." # _worker.js ရှိသည့် Directory (Root ဖြစ်လျှင် ".")
 compatibility_date = "2024-03-20"
 compatibility_flags = [ "nodejs_compat" ]
-keep_vars = true
 [vars]
 WS_PATH = "galaxy-tunnel"
 PROXYIP = "bpb.yousef.isegaro.com"
-#PROXY_LIST_URL = ""
+UUID = "3085fd9c-5118-4f68-864e-d230fd5869bf"
 DNS_RESOLVER_URL = ["https://cloudflare-dns.com/dns-query",
 "https://dns.google/dns-query",
 "https://dns.alidns.com/dns-query",
